@@ -7,12 +7,6 @@ public class InputControl : MonoBehaviour
     [SerializeField]
     private Camera _mainCamera;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
     // Update is called once per frame
     void Update()
     {
@@ -23,6 +17,7 @@ public class InputControl : MonoBehaviour
         }
     }
 
+    // ABSTRACTION
     void HandleSelection()
     {
         var ray = _mainCamera.ScreenPointToRay(Input.mousePosition);

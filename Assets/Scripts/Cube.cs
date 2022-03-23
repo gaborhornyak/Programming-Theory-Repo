@@ -2,12 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// INHERITANCE
 public class Cube : BaseShape
 {
     private Rigidbody _rigidBody;
 
+    // ENCAPSULATION
     public float SpinForce { get; set; }
 
+    // POLYMORPHISM
     public override void DoTrick()
     {
         // spin cube
