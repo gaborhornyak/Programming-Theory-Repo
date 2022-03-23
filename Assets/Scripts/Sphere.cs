@@ -18,6 +18,6 @@ public class Sphere : BaseShape
     {
         _rigidBody = GetComponent<Rigidbody>();
         // set default force
-        JumpForce = 5.0f;
+        JumpForce = 3.0f;
     }
 }
